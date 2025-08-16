@@ -2,7 +2,6 @@
 marp: true
 theme: default
 paginate: true
-backgroundImage: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')
 header: 'Technical Documentation | Product Presentation'
 footer: '**Contact:** 23f3003731@ds.study.iitm.ac.in'
 ---
@@ -57,7 +56,6 @@ Essential directives for presentation control:
 marp: true              # Enable Marp
 theme: default          # Theme specification
 paginate: true          # Page numbers
-backgroundImage: url()  # Global background
 ---
 
 <!-- _backgroundColor: #333 --> # Per-slide background
@@ -66,19 +64,18 @@ backgroundImage: url()  # Global background
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1518709268805-4e045d03db29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80') -->
-<!-- _color: white -->
+![bg](https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
 
 # Background Image Demo Slide
 
-## This slide has a specific background image
+## This slide has a background image using ![bg] syntax
 
-This slide demonstrates the use of the `_backgroundImage` directive to apply a background image to a specific slide. The image is loaded from a reliable web source.
+This slide demonstrates the use of the `![bg]` syntax to apply a background image. This is the most reliable method in Marp.
 
 **Key Features:**
-- Direct `_backgroundImage` directive usage
+- Uses `![bg]` syntax for background
 - Professional tech-themed background
-- Readable white text overlay
+- Reliable image loading
 
 ---
 
@@ -141,7 +138,7 @@ class DocumentationBuilder {
 
 Where:
 - $n$ = number of slides
-- $s$ = styling complexity  
+- $s$ = styling complexity
 - $f$ = output format overhead
 
 ---
@@ -178,17 +175,16 @@ Where:
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') -->
-<!-- _color: white -->
+![bg](https://images.unsplash.com/photo-1518709268805-4e045d03db29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80)
 
 # Second Background Image Slide
 
 ## Multiple Background Images Demonstration
 
-This is a second slide with a different background image to ensure the requirement is fully satisfied.
+This is a second slide with a different background image using the `![bg]` syntax to ensure the requirement is fully satisfied.
 
 **Features Demonstrated:**
-- Second `_backgroundImage` directive
+- Second background image using `![bg]` syntax
 - Different professional background
 - Consistent text styling and readability
 
