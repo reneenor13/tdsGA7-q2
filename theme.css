@@ -1,0 +1,9 @@
+/* Custom Marp theme */
+section {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #222;
+  background-color: #f4f4f4;
+}
+h1, h2, h3 {
+  color: #007ACC;
+}
