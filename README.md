@@ -17,5 +17,11 @@ This repository contains a **Marp Markdown presentation** for product documentat
 
 ---
 
-## Repository Structure
+# Product Documentation Presentation
+
+## Raw Slides
+You can access the slides directly via the raw GitHub URL:
+
+[slides.md](https://raw.githubusercontent.com/reneenor13/tdsGA7-q2/refs/heads/main/slides.md)
+
 
