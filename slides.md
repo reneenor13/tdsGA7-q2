@@ -1,45 +1,259 @@
 ---
 marp: true
-theme: ./theme.css
+theme: custom-tech
+class: lead
 paginate: true
+backgroundColor: #1e1e1e
+color: #ffffff
+header: 'Technical Documentation | Product Presentation'
+footer: '**Contact:** 23f3003731@ds.study.iitm.ac.in'
 ---
 
-# Product Documentation Presentation
-**Author:** Renee Noronha  
+<style>
+@import url('./theme.css');
+</style>
+
+# Technical Documentation System
+## Modern Product Documentation with Marp
+
+### Building Maintainable Technical Content
+**Version-Controlled | Multi-Format | Developer-Friendly**
+
+---
+
+<!-- _class: lead -->
+<!-- _paginate: false -->
+
+# Welcome to Our Documentation System
+
+Building next-generation product documentation that scales with your development workflow.
+
+**Created by:** Technical Writing Team  
+**Contact:** 23f3003731@ds.study.iitm.ac.in
+
+---
+
+## What is Marp?
+
+<!-- _class: two-column -->
+
+<div class="two-column">
+<div class="column">
+
+### **Markdown Presentation Ecosystem**
+- Write slides in Markdown
+- Version control with Git
+- Export to HTML, PDF, PPT
+- Custom themes & styling
+- Live preview in VS Code
+
+</div>
+<div class="column">
+
+### **Key Benefits**
+- **Maintainable** - Track changes over time
+- **Collaborative** - Multiple contributors
+- **Flexible** - Multiple output formats
+- **Developer-Friendly** - Code syntax highlighting
+- **Automated** - CI/CD integration
+
+</div>
+</div>
+
+---
+
+<!-- _backgroundColor: #2c3e50 -->
+
+## Core Marp Directives
+
+Essential directives for presentation control:
+
+```markdown
+---
+marp: true              # Enable Marp
+theme: custom-tech      # Custom theme
+paginate: true          # Page numbers
+class: lead             # Slide class
+backgroundColor: #1e1e1e # Background color
+---
+
+<!-- _class: lead -->           # Per-slide class
+<!-- _backgroundColor: #333 --> # Per-slide background
+<!-- _paginate: false -->       # Disable pagination
+```
+
+---
+
+<!-- _class: background-image -->
+
+# Background Image Demo
+
+## This slide uses your local background.jpg
+
+Custom background images help create visually engaging presentations while maintaining professional appearance.
+
+---
+
+## Algorithm Complexity Analysis
+
+<!-- _class: math-slide -->
+
+<div class="algorithm-complexity">
+
+### Time Complexity Examples
+
+**Binary Search:** $O(\log n)$
+
+**Quick Sort (Average):** $O(n \log n)$
+
+**Hash Table Lookup:** $O(1)$ average, $O(n)$ worst case
+
+**Dynamic Programming:** $O(n \times m)$ for 2D problems
+
+</div>
+
+### Space-Time Tradeoff Formula
+
+$$\text{Efficiency} = \frac{\text{Time Saved}}{\text{Space Used}} \times \text{Scalability Factor}$$
+
+---
+
+<!-- _backgroundColor: #8b5cf6 -->
+
+## Advanced Directives in Action
+
+<div class="highlight-box">
+
+**This slide demonstrates:**
+- Custom background color (`_backgroundColor`)
+- Styled highlight boxes
+- Multiple Marp features combined
+
+</div>
+
+### Code Example with Syntax Highlighting
+
+```javascript
+// API Documentation Generator
+class DocumentationBuilder {
+  constructor(config) {
+    this.theme = config.theme || 'custom-tech';
+    this.outputFormats = ['html', 'pdf', 'pptx'];
+  }
+  
+  async build() {
+    return await this.generateSlides();
+  }
+}
+```
+
+---
+
+## Performance Metrics
+
+<!-- _class: metrics-slide -->
+
+| Format | Build Time | File Size | Quality |
+|--------|------------|-----------|---------|
+| HTML | 2.3s | 1.2 MB | ⭐⭐⭐⭐⭐ |
+| PDF | 8.7s | 3.4 MB | ⭐⭐⭐⭐ |
+| PowerPoint | 12.1s | 5.8 MB | ⭐⭐⭐ |
+
+### Mathematical Performance Model
+
+**Rendering Complexity:** $O(n \times s \times f)$
+
+Where:
+- $n$ = number of slides
+- $s$ = styling complexity
+- $f$ = output format overhead
+
+---
+
+<!-- _class: lead -->
+<!-- _backgroundColor: #059669 -->
+
+# Integration Workflow
+
+## From Markdown to Production
+
+1. **Write** in Markdown with Marp directives
+2. **Preview** in VS Code with live updates
+3. **Export** to multiple formats automatically
+4. **Deploy** via CI/CD pipeline
+5. **Maintain** through version control
+
+---
+
+## Best Practices & Tips
+
+<div class="two-column">
+<div class="column">
+
+### **Content Strategy**
+- Keep slides focused and minimal
+- Use consistent styling throughout
+- Optimize images before including
+- Include speaker notes when needed
+- Test across different formats
+
+</div>
+<div class="column">
+
+### **Technical Implementation**
+- Use relative paths for local assets
+- Import custom CSS themes
+- Leverage Marp CLI for automation
+- Version control your theme files
+- Set up automated builds
+
+</div>
+</div>
+
+---
+
+<!-- _class: background-image -->
+
+# Troubleshooting Common Issues
+
+## Solutions for Typical Problems
+
+**Images Not Loading:** Use relative paths and `--allow-local-files` flag
+
+**Font Problems:** Include web fonts in custom themes
+
+**Build Errors:** Check Node.js compatibility and dependencies
+
+---
+
+## Contact & Resources
+
+<div class="highlight-box">
+
+### **Get in Touch**
 **Email:** 23f3003731@ds.study.iitm.ac.in
+**Documentation:** Available in repository README.md
+**Support:** Create issues in the project repository
+
+</div>
+
+### **Useful Keyboard Shortcuts**
+- `F1` → Marp: Toggle Preview (VS Code)
+- `Ctrl+Shift+V` → Preview Mode
+- `F` → Fullscreen in presentation
+- `P` → Presenter View
+- `B` → Blackout screen
 
 ---
 
-<!-- Slide with Background Image -->
-<!-- background image example -->
-<!-- class: lead -->
-![background](images/background.jpg)
+<!-- _class: lead -->
+<!-- _backgroundColor: #dc2626 -->
 
-# Introduction
-This presentation documents our product features and usage.  
-- Maintainable in version control  
-- Convertible to multiple formats (PDF, HTML)  
-- Includes equations, custom theme, and images
+# Thank You!
 
----
+## Questions & Discussion
 
-# Features
-- **Custom Theme:** `theme.css` defines colors, fonts, and layout  
-- **Page Numbers:** Enabled using `paginate: true`  
-- **Background Images:** Example on first slide  
-- **Speaker Notes:** Can be added using HTML comments or `note:` directive  
+**Repository:** Your slides are now ready for version control  
+**Raw GitHub URL Format:** `https://raw.githubusercontent.com/[USER]/[REPO]/main/slides.md`
 
----
-
-# Mathematical Example
-Algorithmic Complexity:  
-$$
-T(n) = O(n \log n)
-$$
-
----
-
-# Export Instructions
-- **PDF Export:**  
-```bash
-marp slides.md --pdf --allow-local-files
+*Remember to replace [USER] and [REPO] with your actual GitHub details*
