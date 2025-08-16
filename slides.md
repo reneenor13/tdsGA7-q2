@@ -85,6 +85,7 @@ backgroundColor: #1e1e1e # Background color
 ---
 
 <!-- _class: background-image -->
+<!-- _backgroundImage: url('./images/background.jpg') -->
 
 # Background Image Demo
 
@@ -213,6 +214,7 @@ Where:
 ---
 
 <!-- _class: background-image -->
+<!-- _backgroundImage: url('./images/background.jpg') -->
 
 # Troubleshooting Common Issues
 
@@ -254,6 +256,6 @@ Where:
 ## Questions & Discussion
 
 **Repository:** Your slides are now ready for version control  
-**Raw GitHub URL Format:** `https://raw.githubusercontent.com/[USER]/[REPO]/main/slides.md`
+**Raw GitHub URL:** `https://raw.githubusercontent.com/reneenor13/tdsGA7-q2/refs/heads/main/slides.md`
 
-*Remember to replace [USER] and [REPO] with your actual GitHub details*
+*Your actual GitHub details: reneenor13/tdsGA7-q2*
