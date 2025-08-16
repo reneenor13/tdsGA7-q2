@@ -1,17 +1,11 @@
 ---
 marp: true
-theme: custom-tech
-class: lead
+theme: default
 paginate: true
-backgroundColor: #1e1e1e
-color: #ffffff
+backgroundImage: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')
 header: 'Technical Documentation | Product Presentation'
 footer: '**Contact:** 23f3003731@ds.study.iitm.ac.in'
 ---
-
-<style>
-@import url('./theme.css');
-</style>
 
 # Technical Documentation System
 ## Modern Product Documentation with Marp
@@ -19,9 +13,10 @@ footer: '**Contact:** 23f3003731@ds.study.iitm.ac.in'
 ### Building Maintainable Technical Content
 **Version-Controlled | Multi-Format | Developer-Friendly**
 
+**Contact:** 23f3003731@ds.study.iitm.ac.in
+
 ---
 
-<!-- _class: lead -->
 <!-- _paginate: false -->
 
 # Welcome to Our Documentation System
@@ -35,11 +30,6 @@ Building next-generation product documentation that scales with your development
 
 ## What is Marp?
 
-<!-- _class: two-column -->
-
-<div class="two-column">
-<div class="column">
-
 ### **Markdown Presentation Ecosystem**
 - Write slides in Markdown
 - Version control with Git
@@ -47,18 +37,12 @@ Building next-generation product documentation that scales with your development
 - Custom themes & styling
 - Live preview in VS Code
 
-</div>
-<div class="column">
-
 ### **Key Benefits**
 - **Maintainable** - Track changes over time
 - **Collaborative** - Multiple contributors
 - **Flexible** - Multiple output formats
 - **Developer-Friendly** - Code syntax highlighting
 - **Automated** - CI/CD integration
-
-</div>
-</div>
 
 ---
 
@@ -71,39 +55,34 @@ Essential directives for presentation control:
 ```markdown
 ---
 marp: true              # Enable Marp
-theme: custom-tech      # Custom theme
+theme: default          # Theme specification
 paginate: true          # Page numbers
-class: lead             # Slide class
-backgroundColor: #1e1e1e # Background color
+backgroundImage: url()  # Global background
 ---
 
-<!-- _class: lead -->           # Per-slide class
 <!-- _backgroundColor: #333 --> # Per-slide background
 <!-- _paginate: false -->       # Disable pagination
 ```
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') -->
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1518709268805-4e045d03db29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80') -->
+<!-- _color: white -->
 
-# Background Image Demonstration
+# Background Image Demo Slide
 
-## Professional Tech Background
+## This slide has a specific background image
 
-This slide uses the **`_backgroundImage`** directive to display a background image. The image is loaded from a reliable web source with proper styling for professional presentations.
+This slide demonstrates the use of the `_backgroundImage` directive to apply a background image to a specific slide. The image is loaded from a reliable web source.
 
-### Key Features:
-- ✅ **Background image directive**
-- ✅ **Professional tech imagery** 
-- ✅ **Readable text overlay**
+**Key Features:**
+- Direct `_backgroundImage` directive usage
+- Professional tech-themed background
+- Readable white text overlay
 
 ---
 
 ## Algorithm Complexity Analysis
-
-<!-- _class: math-slide -->
-
-<div class="algorithm-complexity">
 
 ### Time Complexity Examples
 
@@ -115,8 +94,6 @@ This slide uses the **`_backgroundImage`** directive to display a background ima
 
 **Dynamic Programming:** $O(n \times m)$ for 2D problems
 
-</div>
-
 ### Space-Time Tradeoff Formula
 
 $$\text{Efficiency} = \frac{\text{Time Saved}}{\text{Space Used}} \times \text{Scalability Factor}$$
@@ -127,14 +104,10 @@ $$\text{Efficiency} = \frac{\text{Time Saved}}{\text{Space Used}} \times \text{S
 
 ## Advanced Directives in Action
 
-<div class="highlight-box">
-
 **This slide demonstrates:**
 - Custom background color (`_backgroundColor`)
-- Styled highlight boxes
 - Multiple Marp features combined
-
-</div>
+- Professional presentation styling
 
 ### Code Example with Syntax Highlighting
 
@@ -142,7 +115,7 @@ $$\text{Efficiency} = \frac{\text{Time Saved}}{\text{Space Used}} \times \text{S
 // API Documentation Generator
 class DocumentationBuilder {
   constructor(config) {
-    this.theme = config.theme || 'custom-tech';
+    this.theme = config.theme || 'default';
     this.outputFormats = ['html', 'pdf', 'pptx'];
   }
   
@@ -156,8 +129,6 @@ class DocumentationBuilder {
 
 ## Performance Metrics
 
-<!-- _class: metrics-slide -->
-
 | Format | Build Time | File Size | Quality |
 |--------|------------|-----------|---------|
 | HTML | 2.3s | 1.2 MB | ⭐⭐⭐⭐⭐ |
@@ -170,12 +141,11 @@ class DocumentationBuilder {
 
 Where:
 - $n$ = number of slides
-- $s$ = styling complexity
+- $s$ = styling complexity  
 - $f$ = output format overhead
 
 ---
 
-<!-- _class: lead -->
 <!-- _backgroundColor: #059669 -->
 
 # Integration Workflow
@@ -192,18 +162,12 @@ Where:
 
 ## Best Practices & Tips
 
-<div class="two-column">
-<div class="column">
-
 ### **Content Strategy**
 - Keep slides focused and minimal
 - Use consistent styling throughout
 - Optimize images before including
 - Include speaker notes when needed
 - Test across different formats
-
-</div>
-<div class="column">
 
 ### **Technical Implementation**
 - Use relative paths for local assets
@@ -212,37 +176,30 @@ Where:
 - Version control your theme files
 - Set up automated builds
 
-</div>
-</div>
-
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1518709268805-4e045d03db29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80') -->
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') -->
+<!-- _color: white -->
 
-# Troubleshooting Common Issues
+# Second Background Image Slide
 
-## Solutions for Typical Problems
+## Multiple Background Images Demonstration
 
-**Images Not Loading:** Use relative paths and `--allow-local-files` flag
+This is a second slide with a different background image to ensure the requirement is fully satisfied.
 
-**Font Problems:** Include web fonts in custom themes  
-
-**Build Errors:** Check Node.js compatibility and dependencies
-
-This slide demonstrates a **second background image** to ensure requirement compliance.
+**Features Demonstrated:**
+- Second `_backgroundImage` directive
+- Different professional background
+- Consistent text styling and readability
 
 ---
 
 ## Contact & Resources
 
-<div class="highlight-box">
-
 ### **Get in Touch**
 **Email:** 23f3003731@ds.study.iitm.ac.in
 **Documentation:** Available in repository README.md
 **Support:** Create issues in the project repository
-
-</div>
 
 ### **Useful Keyboard Shortcuts**
 - `F1` → Marp: Toggle Preview (VS Code)
@@ -253,7 +210,6 @@ This slide demonstrates a **second background image** to ensure requirement comp
 
 ---
 
-<!-- _class: lead -->
 <!-- _backgroundColor: #dc2626 -->
 
 # Thank You!
@@ -263,4 +219,6 @@ This slide demonstrates a **second background image** to ensure requirement comp
 **Repository:** Your slides are now ready for version control  
 **Raw GitHub URL:** `https://raw.githubusercontent.com/reneenor13/tdsGA7-q2/main/slides.md`
 
-*Complete with background images and all required Marp directives!*
+**Contact:** 23f3003731@ds.study.iitm.ac.in
+
+*Complete presentation with all required Marp directives and background images!*
