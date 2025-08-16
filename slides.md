@@ -2,62 +2,76 @@
 marp: true
 theme: ./theme.css
 paginate: true
-class: lead
 ---
 
-# Product Documentation Overview
-
-**Technical Writer:** Renee Noronha  
+<!-- Slide 1: Title -->
+# Product Documentation Presentation
+**Author:** Renee Noronha  
 **Email:** 23f3003731@ds.study.iitm.ac.in
 
 ---
 
-# Features of the Product
-
-- Maintainable in version control
-- Easily convertible to PDF, PPT, and HTML
-- Supports custom styling
-- Optimized for images and fonts
-
----
-
-# Algorithm Complexity
-
-$$
-T(n) = O(n \log n), \quad S(n) = O(n)
-$$
-
----
-
-<!-- Slide with background image -->
+<!-- Slide 2: Background Image -->
 ![bg](images/background.jpg)
-
-# Visual Overview
-
-- Background image slide for branding
-- Keep content minimal
-- Focus on visuals
+# Introduction
+Welcome to the product documentation presentation.  
+This slide uses a full background image.
 
 ---
 
-# Custom Styling Example
-
-<style>
-ul {
-  color: #0055a5;
-  font-size: 1.2em;
-}
-</style>
-
-- Bullet point 1  
-- Bullet point 2  
-- Bullet point 3
+<!-- Slide 3: Key Features -->
+## Key Features
+- Maintainable in version control  
+- Easily convertible to PDF/HTML  
+- Supports custom themes and styling  
+- Includes mathematical equations  
+- Optimized images for performance  
 
 ---
 
-# Conclusion
+<!-- Slide 4: Custom Styling Example -->
+## Custom Styling
+- Bold text: **important**  
+- Italics: *optional emphasis*  
+- Blockquote for notes:
 
-- Slides are version-controlled
-- Multiple export formats supported
-- Math equations render properly
-- Custom themes and page numbers included
+> This slide demonstrates custom Marp styling directives.
+
+---
+
+<!-- Slide 5: Algorithm Complexity -->
+## Algorithm Complexity
+The time complexity of our main algorithm is:
+
+$$
+T(n) = O(n \log n)
+$$
+
+Where:
+- \(n\) = number of items  
+- \(O(n \log n)\) = worst-case time complexity  
+
+---
+
+<!-- Slide 6: Tips & Common Issues -->
+## Tips & Common Issues
+- **Images Not Loading:** use relative paths + `--allow-local-files` for PDF  
+- **Font Problems:** include web fonts in your custom theme  
+- **Build Errors:** check Node.js version & dependencies, use `--verbose`  
+
+---
+
+<!-- Slide 7: Keyboard Shortcuts -->
+## Keyboard Shortcuts (VS Code)
+- Preview: `Ctrl+Shift+V`  
+- Side Preview: `Ctrl+K V`  
+- Fullscreen: `F`  
+- Presenter View: `P`  
+- Blackout: `B`  
+
+---
+
+<!-- Slide 8: Closing Slide -->
+# Thank You!
+**Contact:** 23f3003731@ds.study.iitm.ac.in  
+Feel free to reach out for questions or collaboration.
