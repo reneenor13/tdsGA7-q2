@@ -11,6 +11,15 @@ footer: '**Contact:** 23f3003731@ds.study.iitm.ac.in'
 
 <style>
 @import url('./theme.css');
+
+section.background-image {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
 </style>
 
 # Technical Documentation System
@@ -85,13 +94,17 @@ backgroundColor: #1e1e1e # Background color
 ---
 
 <!-- _class: background-image -->
-<!-- _backgroundImage: url('./images/background.jpg') -->
 
-# Background Image Demo
+# Background Image Demonstration
 
-## This slide uses your local background.jpg
+## Professional Tech Background
 
-Custom background images help create visually engaging presentations while maintaining professional appearance.
+This slide demonstrates the use of background images in Marp presentations. The image is loaded from a reliable web source and styled with proper overlay for text readability.
+
+### Features:
+- **Responsive design** with overlay
+- **Professional appearance**
+- **High-quality tech imagery**
 
 ---
 
@@ -214,7 +227,6 @@ Where:
 ---
 
 <!-- _class: background-image -->
-<!-- _backgroundImage: url('./images/background.jpg') -->
 
 # Troubleshooting Common Issues
 
@@ -225,6 +237,8 @@ Where:
 **Font Problems:** Include web fonts in custom themes
 
 **Build Errors:** Check Node.js compatibility and dependencies
+
+This slide also uses the background image to demonstrate multiple background image slides in the presentation.
 
 ---
 
